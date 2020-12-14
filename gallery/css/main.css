@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+	background-color: #efefef;
+	font-family: Roboto;
+}
+
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw-40px) / 16 * 9);
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+
+.photo1{
+	background-image: url(../img/img1.jpg);
+}
+.photo2{
+	background-image: url(../img/img2.jpg);
+}
+.photo3{
+	background-image: url(../img/img3.jpg);
+}
+.photo4{
+	background-image: url(../img/img4.jpg);
+}
